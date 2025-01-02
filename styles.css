@@ -1,0 +1,414 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ffffff; 
+    color: #333; 
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    color: #333; 
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav ul li a:hover {
+    color: #161212; 
+}
+
+.btn {
+    padding: 15px;
+    background-color: #2575fc; /* Màu xanh cho nút đăng nhập */
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.btn.primary {
+    background: #2f1bc0; 
+    color: #fff;
+}
+
+.btn.primary:hover {
+    background-color: #6a11cb; 
+}
+
+.btn.secondary {
+    background: #4962ad; 
+    color: #fff;
+}
+
+.btn.secondary:hover {
+    background: #4962ad; 
+}
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    background: #e9ecef;
+}
+
+.intro h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #5a9ae8;
+}
+
+.intro p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.intro .buttons a {
+    margin: 0 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.footer {
+    background: #e0f7fa; 
+    color: #333;
+    padding: 40px 20px;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-center {
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+}
+
+.footer-hotline, .footer-contact {
+    margin-bottom: 20px;
+}
+
+.footer-hotline h3, .footer-contact h3 {
+    color: #0f0d0d; 
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.footer-left {
+    flex: 2;
+    min-width: 300px;
+}
+
+.footer-left .footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-left h3 {
+    color: #0f0d0d;
+    font-size: 18px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.footer-right {
+    flex: 1;
+    min-width: 200px;
+    text-align: right;
+}
+
+.footer-right h3 {
+    color: #191717; 
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+}
+
+.footer-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-right ul li {
+    margin: 5px 0;
+}
+
+.footer-right ul li a {
+    text-decoration: none;
+    color: #171414; 
+    transition: color 0.3s ease;
+}
+
+.footer-right ul li a:hover {
+    color: #333; 
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.main-header {
+    background: #ffffff; 
+    color: #333; 
+    padding: 20px 0;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo a {
+    font-size: 28px;
+    font-weight: bold;
+    color: #171514; 
+    text-decoration: none;
+}
+
+.main-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+
+.main-menu li a:hover {
+    background: #2575fc; 
+    color: #080809; 
+    border-color: #1a1717;
+}
+.main-menu li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px; 
+    font-size: 16px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    transition: all 0.3s;
+    display: inline-block;
+    margin: 0; 
+}
+
+.main-menu li {
+    display: inline-block; 
+    margin: 0px; 
+}
+
+
+
+.menu-info {
+    text-align: center;
+    padding: 40px 20px 20px;
+    background: #5a9ae8; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    color: #333;
+}
+
+.menu-info h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.menu-info p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.menu-stats {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-item strong {
+    font-size: 28px;
+    color: #161414;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.stat-item span {
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .main-header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu-stats {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-right,
+    .footer-left {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-bottom {
+        font-size: 10px;
+    }
+
+    .main-menu ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.btn {
+    padding: 15px 30px;
+    background-color: #ffffff; 
+    color: #2575fc; 
+    border: 2px solid #2575fc; 
+    border-radius: 50px; 
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2575fc; 
+    color: #fff; 
+    border-color: #2575fc;
+}
+
+.btn.primary {
+    background: #ffffff;
+    color: #2f1bc0; 
+    border: 2px solid #2f1bc0; 
+}
+
+.btn.primary:hover {
+    background-color: #2f1bc0; 
+    color: #fff; 
+    border-color: #2f1bc0; 
+}
+
+
+.btn.secondary {
+    padding: 8px 30px; 
+    font-size: 12px;
+    border-radius: 30px; 
+    background-color: #ffffff; 
+    color: #4962ad;
+    border: 2px solid #4962ad; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    width: auto; 
+}
+
+.btn.secondary:hover {
+    background-color: #4962ad;
+    color: #fff;
+    border-color: #4962ad; 
+}
+
+.sign-up-btn {
+    color: #2196f3;
+    background: #ffffff; 
+    border: 2px solid #21cbf3; 
+    padding: 14px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.sign-up-btn:hover {
+    background: linear-gradient(90deg, #1976d2, #2196f3); 
+    border-color: #1976d2;
+}
+
+.login-btn {
+    color: #fff;
+    background: #ffffff; 
+    border: 2px solid #2575fc;
+    padding: 14px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    border-color: #6a11cb;
+}
+
+.btn-login-main {
+    padding: 14px 30px;
+    background: #ffffff; 
+    color: #2575fc;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 18px;
+    display: inline-block;
+    margin: 20px;
+    border: 2px solid #2575fc; 
+    transition: all 0.3s ease;
+}
+
+.btn-login-main:hover {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    border-color: #6a11cb;
+}
